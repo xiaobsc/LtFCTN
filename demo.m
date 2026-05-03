@@ -54,7 +54,7 @@ opts.R = [0,   r12, r13, Tp;
           Tp,  Tp,  Tp,  Tp];
 
 opts.tol   = 1e-5;
-opts.maxit = 500;
+opts.maxit = 1000;
 opts.rho   = 0.001;
 opts.mu    = 10;
 opts.Xtrue = X;
