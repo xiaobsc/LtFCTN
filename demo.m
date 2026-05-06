@@ -1,4 +1,4 @@
-%% run_demo.m
+
 % Demo for LtFCTN tensor completion
 
 
