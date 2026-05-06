@@ -16,4 +16,3 @@ Results are printed in the MATLAB console.
 
 ## Citation
 High-order tensor completion via a learnable t-product-induced Fully-Connected Tensor Network decomposition
-**
