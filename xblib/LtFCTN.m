@@ -76,7 +76,7 @@ for k = 1:maxit
         Q = tmodexb(E, UT(OthMode), OthMode); 
         X_mat = unfold(X, j);  
         Q_mat = unfold(Q, j);  
-        PT = Q_mat * X_mat' + Uold{j};
+        PT = mu*(Q_mat*X_mat') + rho*Uold{j};
         [U_svd, ~, V_svd] = svd(PT, 'econ');
         U{j} = U_svd * V_svd';
     end
